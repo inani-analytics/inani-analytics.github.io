@@ -663,3 +663,6 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .pcards{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
 .pcards.carousel{grid-auto-columns:min(400px,82vw)}
 @media (max-width:860px){.pcards:not(.carousel){grid-template-columns:1fr}}
+.logo{background:#F3EFE6 !important;border-color:#F3EFE6}
+.logo img{max-height:80px;max-width:180px}
+.logo span{color:#062A1E}
