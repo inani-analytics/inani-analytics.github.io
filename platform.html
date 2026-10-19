@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Platform · INANI</title>
+<meta name="description" content="Inani Analytics, Intelligence and Insights: dashboards, rankings and the data behind them.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,300..900;1,62..125,300..900&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs>
+<symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18M18 17V9M13 17V5M8 17v-3"/></symbol>
+<symbol id="i-deal" viewBox="0 0 24 24"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3M3 4h8"/></symbol>
+<symbol id="i-news" viewBox="0 0 24 24"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2M18 14h-8M15 18h-5M10 6h8v4h-8V6Z"/></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+<symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-7-7 7 7-7 7"/></symbol>
+<symbol id="i-athlete" viewBox="0 0 24 24"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+<symbol id="i-team" viewBox="0 0 24 24"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+<symbol id="i-rights" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-brand" viewBox="0 0 24 24"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></symbol>
+<symbol id="i-invest" viewBox="0 0 24 24"><path d="M22 7 13.5 15.5 8.5 10.5 2 17M16 7h6v6"/></symbol>
+<symbol id="i-media" viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="15" rx="2"/><path d="m17 2-5 5-5-5"/></symbol>
+<symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+<symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+<symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+<symbol id="i-file" viewBox="0 0 24 24"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4M10 9H8M16 13H8M16 17H8"/></symbol>
+<symbol id="i-card" viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></symbol>
+<symbol id="i-db" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></symbol>
+</defs>
+</svg>
+<header class="top">
+  <div class="wrap bar">
+    <a class="lock" href="index.html" aria-label="INANI home"><svg viewBox="0 0 100 100" aria-hidden="true"><circle cx="50" cy="50" r="42" fill="none" stroke="#FBB91D" stroke-width="9"/><polyline points="14,54 36,54 40,32 50,70 55,54 86,54" fill="none" stroke="#FBB91D" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>INA<b>NI</b></span></a>
+    <nav class="main" id="nav" aria-label="Primary"><a href="index.html">Home</a><a href="platform.html" aria-current="page">Platform</a><a href="athletes.html">Athletes</a><a href="brands.html">Brands & Rights Holders</a><a href="insights.html">Insights</a><a href="partners.html">Partners</a><a href="about.html">About</a></nav>
+    <div class="acts"><a class="cta" href="athletes.html#apply">Know your worth</a><button class="menu" id="menu" aria-expanded="false" aria-controls="nav">Menu</button></div>
+  </div>
+</header>
+<main>
+
+<section class="wrap" style="padding-top:clamp(2rem,5vw,4rem)">
+  <div class="head" style="align-items:start"><h1 style="font-size:clamp(2.4rem,7vw,6rem)">Know your<br>worth.</h1>
+    <div style="max-width:40ch;display:grid;gap:1rem"><p style="color:var(--ash);font-size:1.05rem">Contracts, live reach, partnerships and media value in one dashboard. Click through the screens: this is the product, with Siya Kolisi's public record loaded.</p><div class="acts"><a class="cta" href="athletes.html#apply">Build my dashboard</a><a class="cta ghost" href="https://siyaduna.github.io/inani-demo/" target="_blank" rel="noopener">Try the demo</a></div></div></div>
+  <div class="show" id="show">
+  <div class="show-tabs" role="tablist" aria-label="Platform screens">
+    <button role="tab" aria-selected="true" data-screen="s-overview"><b>My Value</b><span>Every number on one athlete</span></button>
+    <button role="tab" aria-selected="false" data-screen="s-reach"><b>Live reach</b><span>Connected accounts, not estimates</span></button>
+    <button role="tab" aria-selected="false" data-screen="s-contracts"><b>Contracts</b><span>Extensions, moves and terms</span></button>
+    <button role="tab" aria-selected="false" data-screen="s-briefs"><b>Briefs</b><span>Brands post, athletes apply</span></button>
+    <button role="tab" aria-selected="false" data-screen="s-return"><b>Return</b><span>Revenue against the fee</span></button>
+  </div>
+  <div class="device">
+    <div class="chrome"><i></i><i></i><i></i><span>app.inani.co.za/athletes/siya-kolisi</span></div>
+    <div class="screens">
+      <div class="screen on" id="s-overview">
+        <div class="s-head"><div><div class="s-name">Siya Kolisi</div><div class="s-meta">Flanker · Stormers · Springboks captain</div></div><div class="pill eq">FOM · equity</div></div>
+        <div class="s-tiles">
+          <div class="t"><span>Instagram</span><b class="count" data-to="1.3" data-suffix="M" data-dec="1">0</b><small>Jul 2024</small></div>
+          <div class="t"><span>Test caps</span><b class="count" data-to="100">0</b><small>Nov 2025</small></div>
+          <div class="t"><span>Last salary</span><b>£850k</b><small>Racing 92, reported</small></div>
+          <div class="t est"><span>Media value</span><b>EST</b><small>connect to verify</small></div>
+        </div>
+        <div class="s-combo">
+          <div class="s-combo-top"><b>How reach converts to paid deals</b><span>Example: semi-professional athlete, 12 months</span></div>
+          <div class="s-totals"><div><span>Total followers</span><b>61.1k</b></div><div><span>Paid deals</span><b>4</b></div><div><span>Earned by athlete</span><b>R164k</b></div><div><span>Revenue for brands</span><b>R574k</b></div></div>
+          <svg viewBox="0 0 660 210" aria-label="Followers per platform as bars, money earned per platform as a line">
+            <g font-family="Archivo,Helvetica,sans-serif" font-size="11" fill="#9FAAA4">
+              <line x1="50" y1="150" x2="590" y2="150" stroke="#0C3A2B"/><line x1="50" y1="95" x2="590" y2="95" stroke="#0C3A2B"/><line x1="50" y1="40" x2="590" y2="40" stroke="#0C3A2B"/>
+              <text x="8" y="44">30k</text><text x="8" y="99">15k</text><text x="8" y="154">0</text>
+              <text x="596" y="44" fill="#FBB91D">R80k</text><text x="596" y="99" fill="#FBB91D">R40k</text><text x="596" y="154" fill="#FBB91D">0</text>
+            </g>
+            <g class="cb" fill="#5B7D6E">
+              <rect x="80" y="83" width="44" height="67"/><rect x="190" y="37" width="44" height="113"/><rect x="300" y="118" width="44" height="32"/><rect x="410" y="142" width="44" height="8"/><rect x="520" y="147" width="44" height="3"/>
+            </g>
+            <g font-family="Archivo,Helvetica,sans-serif" font-size="11" fill="#F3EFE6" text-anchor="middle">
+              <text x="102" y="76">18.4k</text><text x="212" y="30">31.0k</text><text x="322" y="111">8.7k</text><text x="432" y="135">2.1k</text><text x="542" y="140">0.9k</text>
+              <text x="102" y="170" fill="#9FAAA4">Instagram</text><text x="212" y="170" fill="#9FAAA4">TikTok</text><text x="322" y="170" fill="#9FAAA4">Facebook</text><text x="432" y="170" fill="#9FAAA4">X</text><text x="542" y="170" fill="#9FAAA4">YouTube</text>
+              <text x="102" y="186" fill="#FBB91D">2 deals · R82k</text><text x="212" y="186" fill="#FBB91D">1 deal · R64k</text><text x="322" y="186" fill="#FBB91D">1 deal · R12k</text><text x="432" y="186" fill="#FBB91D">R6k (add-on)</text><text x="542" y="186" fill="#9FAAA4">no deals yet</text>
+            </g>
+            <polyline class="money" points="102,37 212,62 322,133 432,142 542,150" fill="none" stroke="#FBB91D" stroke-width="2.5" stroke-linejoin="round"/>
+            <g fill="#FBB91D"><circle cx="102" cy="37" r="4"/><circle cx="212" cy="62" r="4"/><circle cx="322" cy="133" r="4"/><circle cx="432" cy="142" r="4"/><circle cx="542" cy="150" r="4" fill="#0C3A2B" stroke="#FBB91D" stroke-width="2"/></g>
+            <g font-family="Archivo,Helvetica,sans-serif" font-size="11"><rect x="60" y="198" width="10" height="10" fill="#5B7D6E"/><text x="75" y="207" fill="#9FAAA4">Followers</text><line x1="150" y1="203" x2="170" y2="203" stroke="#FBB91D" stroke-width="2.5"/><text x="176" y="207" fill="#9FAAA4">Money earned from paid deals</text></g>
+          </svg>
+          <p class="s-note">TikTok has the most followers; Instagram earns the most. Four tracked deals returned R574k of brand revenue on R164k of fees, a 3.5× return on spend. Reach is not value; sales are.</p>
+        </div>
+      </div>
+      <div class="screen" id="s-reach">
+        <div class="s-head"><div><div class="s-name">Live reach</div><div class="s-meta">Most-followed active rugby players, Instagram, Jul 2024</div></div></div>
+        <div class="s-bars">
+          <div class="r"><span>Ilona Maher</span><div class="b"><i style="--w:100%"></i></div><b>1.4M</b></div>
+          <div class="r me"><span>Siya Kolisi</span><div class="b"><i style="--w:93%"></i></div><b>1.3M</b></div>
+          <div class="r"><span>Antoine Dupont</span><div class="b"><i style="--w:71%"></i></div><b>1.0M</b></div>
+        </div>
+        <div class="s-plat"><span>Instagram ✓ connected</span><span>TikTok ✓ connected</span><span>X · connect</span><span>YouTube · connect</span></div>
+        <p class="s-note">A sevens player out-reaches the World Cup-winning captain. INANI prices that gap.</p>
+      </div>
+      <div class="screen" id="s-contracts">
+        <div class="s-head"><div><div class="s-name">Contracts</div><div class="s-meta">Playing contracts, from the public record</div></div></div>
+        <ol class="s-tl">
+          <li><span>2026</span><div><b>Stormers</b> · returns to Cape Town from the Sharks</div></li>
+          <li><span>2024</span><div><b>Sharks</b> · Racing 92 deal to 2026 ended early by agreement</div></li>
+          <li><span>2023</span><div><b>Racing 92</b> · £850k a year, reported</div></li>
+          <li><span>2021</span><div><b>Sharks</b> · after MVM Holdings took a majority stake</div></li>
+        </ol>
+      </div>
+      <div class="screen" id="s-briefs">
+        <div class="s-head"><div><div class="s-name">Open briefs</div><div class="s-meta">Matched to your sport, tier and territory</div></div></div>
+        <div class="s-briefs">
+          <div class="br"><div><b>Workwear brand seeks rugby ambassador, KZN</b><span>12 months · social and in-store · example brief</span></div><button type="button" class="apply">Apply</button></div>
+          <div class="br"><div><b>Tailoring house seeks three Springboks for a capsule</b><span>Launch 2027 · equity option · example brief</span></div><button type="button" class="apply">Apply</button></div>
+          <div class="br"><div><b>Sports drink seeks netball ambassadors</b><span>24 months · three athletes · example brief</span></div><button type="button" class="apply">Apply</button></div>
+        </div>
+      </div>
+      <div class="screen" id="s-return">
+        <div class="s-head"><div><div class="s-name">Campaign return</div><div class="s-meta">12-month athlete partnership · revenue tracked by promo code, tagged link and retailer feed · example</div></div></div>
+        <div class="s-tiles three">
+          <div class="t"><span>Fee paid</span><b>R600k</b><small>brand input</small></div>
+          <div class="t"><span>Attributed revenue</span><b class="count" data-prefix="R" data-to="2.1" data-suffix="m" data-dec="1">0</b><small>codes, links, retailer feed</small></div>
+          <div class="t"><span>Return on spend</span><b class="count" data-to="3.5" data-suffix="×" data-dec="1">0</b><small>revenue ÷ fee · media value R1.9m EST</small></div>
+        </div>
+        <div class="s-bars small">
+          <div class="r"><span>Instagram</span><div class="b"><i style="--w:58%"></i></div><b>R1.10m</b></div>
+          <div class="r"><span>TikTok</span><div class="b"><i style="--w:27%"></i></div><b>R0.51m</b></div>
+          <div class="r"><span>Press and web</span><div class="b"><i style="--w:15%"></i></div><b>R0.29m</b></div>
+          <div class="r off"><span>Broadcast</span><div class="b"></div><b>Not tracked</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section class="band"><div class="wrap">
+  <div class="split" style="align-items:center">
+    <div><h2>Know your worth,<br>in your pocket.</h2><p class="l">Five screens: value, connected accounts, open briefs, contracts and the quarterly report. The phone cycles through them; tap the dots to jump.</p>
+      <ul class="metrics" style="margin-top:1.4rem"><li><b>Connect</b><span>Instagram, TikTok, X, YouTube and Facebook through the platforms' own logins. INANI never scrapes.</span></li><li><b>Verify</b><span>Reach is measured from connected accounts. Until then the value is marked EST.</span></li><li><b>Apply</b><span>Briefs matched by sport, tier and territory. One tap to apply with the dashboard attached.</span></li></ul></div>
+    <div style="display:grid;place-items:center"><div class="phone" id="phone" aria-label="Athlete app tour">
+  <div class="notch"></div>
+  <div class="p-top"><span>INA<b>NI</b></span><span class="p-dot"></span></div>
+  <div class="p-screens">
+    <div class="p-screen on">
+      <div class="p-name">Know your worth.</div>
+      <div class="p-val"><span>Your media value</span><b class="count" data-prefix="R" data-to="48" data-suffix="k">0</b><small>EST · connect X and YouTube to verify</small></div>
+      <div class="p-row"><span>Instagram</span><i style="--w:60%"></i><b>18.4k</b></div>
+      <div class="p-row"><span>TikTok</span><i style="--w:100%"></i><b>31.0k</b></div>
+      <div class="p-row"><span>Facebook</span><i style="--w:28%"></i><b>8.7k</b></div>
+      <div class="p-row"><span>Engagement</span><i style="--w:46%"></i><b>4.6%</b></div>
+      <div class="p-mini"><span>30-day trend</span><svg viewBox="0 0 200 40" preserveAspectRatio="none"><path d="M0 32 C30 30,50 26,80 22 S140 14,200 6" fill="none" stroke="#FBB91D" stroke-width="2"/></svg></div>
+      <div class="p-brief"><span>New brief matches you</span><b>Netball ambassadors, national</b><em>Apply</em></div>
+    </div>
+    <div class="p-screen">
+      <div class="p-name">Connect accounts.</div>
+      <div class="p-acc on"><b>Instagram</b><span>@athlete · connected · 18.4k</span><i>✓</i></div>
+      <div class="p-acc on"><b>TikTok</b><span>@athlete · connected · 31.0k</span><i>✓</i></div>
+      <div class="p-acc"><b>X</b><span>Connect to verify reach</span><em>Connect</em></div>
+      <div class="p-acc"><b>YouTube</b><span>Connect to verify reach</span><em>Connect</em></div>
+      <div class="p-acc on"><b>Facebook</b><span>connected · 8.7k</span><i>✓</i></div>
+      <p class="p-note" style="text-align:left">Logins run through each platform's own OAuth. INANI never asks for a password and never scrapes.</p>
+    </div>
+    <div class="p-screen">
+      <div class="p-name">Open briefs.</div>
+      <div class="p-bf"><span>Workwear · KZN · 12 months</span><b>Rugby ambassador</b><small>Budget range on application</small><em>Apply</em></div>
+      <div class="p-bf"><span>Beverage · National · 24 months</span><b>Netball ambassadors</b><small>Three athletes, regional split</small><em>Apply</em></div>
+      <div class="p-bf"><span>Tailoring · 2027 capsule</span><b>Three Springboks</b><small>Equity option</small><em>Not eligible</em></div>
+      <p class="p-note" style="text-align:left">Matched by sport, tier and territory. Example briefs.</p>
+    </div>
+    <div class="p-screen">
+      <div class="p-name">Your contracts.</div>
+      <div class="p-ct"><span>2026</span><div><b>Club contract</b><small>Semi-pro · to Apr 2028 · uploaded</small></div></div>
+      <div class="p-ct"><span>2025</span><div><b>Provincial squad</b><small>Season agreement · uploaded</small></div></div>
+      <div class="p-ct"><span>2024</span><div><b>School leaver</b><small>Craven Week · public record</small></div></div>
+      <div class="p-val" style="margin-top:.3rem"><span>Next renewal</span><b style="font-size:1.6rem;text-decoration:none;color:var(--bone)">Apr 2028</b><small>INANI benchmark ready 90 days before</small></div>
+    </div>
+    <div class="p-screen">
+      <div class="p-name">Your report.</div>
+      <div class="p-rep"><div class="p-pdf">PDF</div><div><b>Quarterly valuation</b><small>A4 · 6 pages · sourced</small></div></div>
+      <div class="p-row"><span>Media value</span><i style="--w:70%"></i><b>R48k</b></div>
+      <div class="p-row"><span>vs tier median</span><i style="--w:52%"></i><b>+34%</b></div>
+      <div class="p-row"><span>Return for partners</span><i style="--w:80%"></i><b>3.2×</b></div>
+      <p class="p-note" style="text-align:left">Share with an agent, a school or a sponsor. Estimates labelled, sources listed.</p>
+    </div>
+  </div>
+  <div class="p-dots"><i class="on"></i><i></i><i></i><i></i><i></i></div>
+</div></div>
+  </div>
+</div></section>
+<section class="wrap" id="tech">
+  <div class="head"><h2>Under the hood</h2><p>What the dashboard runs on.</p></div>
+  <div class="tech carousel">
+    <div><svg class="ico" aria-hidden="true"><use href="#i-link"/></svg><h3>Platform OAuth</h3><p>Instagram, TikTok, X, YouTube and Facebook connect through their own logins. Reach is read, never scraped.</p></div>
+    <div><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg><h3>Revenue attribution</h3><p>Promo codes, tagged links, affiliate pages and retailer sales feeds tie every order back to the partnership that drove it. Media value is reported alongside, labelled EST.</p></div>
+    <div><svg class="ico" aria-hidden="true"><use href="#i-db"/></svg><h3>Verified handle registry</h3><p>Seeded ground truth for national teams and franchises, so a fake account never inflates a value.</p></div>
+    <div><svg class="ico" aria-hidden="true"><use href="#i-deal"/></svg><h3>Briefs marketplace</h3><p>Two-sided: brands post, athletes and teams apply, terms agreed on the platform, return measured from day one.</p></div>
+    <div><svg class="ico" aria-hidden="true"><use href="#i-file"/></svg><h3>Report library</h3><p>A4 PDF editions generated from the same data layer, one currency per report, sources listed.</p></div>
+    <div><svg class="ico" aria-hidden="true"><use href="#i-card"/></svg><h3>Payments and API</h3><p>Card payments through Paystack. Reporting API for brands and agencies on request. POPIA controls on every personal record.</p></div>
+  </div>
+</section>
+<section class="band"><div class="wrap">
+  <div class="head"><h2>Three products,<br>one data layer</h2></div>
+  <div class="prods carousel">
+    <div class="prod"><span class="sub">Inani Analytics</span><h3>My Value</h3><p>The athlete and team dashboard shown above: contracts, reach, partnerships and media value, every input visible.</p></div>
+    <div class="prod"><span class="sub">Inani Intelligence</span><h3>Rankings and Discover</h3><p>For brands, agencies and rights holders. Rank properties by sport, tier and territory, compare on one scale, shortlist straight into a brief.</p></div>
+    <div class="prod"><span class="sub">Inani Insights</span><h3>Pulse</h3><p>The newsroom and report library. Every contract, sponsorship and valuation story linked to its source.</p></div>
+  </div>
+</div></section>
+<section class="band" id="plans"><div class="wrap">
+  <div class="head"><h2>Plans</h2><p>Rand pricing for South African accounts; international accounts billed in US dollars.</p></div>
+  <div class="plans2 carousel">
+    <div class="plan2">
+      <svg class="ico" aria-hidden="true"><use href="#i-athlete"/></svg><p class="who">Athletes</p>
+      <div class="seg" role="tablist"><button aria-selected="true" data-tier="free">Free</button><button aria-selected="false" data-tier="pro">Pro</button><button aria-selected="false" data-tier="elite">Elite</button></div>
+      <div class="tier on" data-tier="free"><p class="pr">R0 <small>forever</small></p><ul><li>Public profile and dashboard</li><li>Take open briefs</li><li>Insights newsletter</li></ul></div>
+      <div class="tier" data-tier="pro"><p class="pr">R99 <small>/ month</small></p><ul><li>Connected accounts, live reach</li><li>Verified media value</li><li>Contract timeline and documents</li><li>Take open briefs</li></ul></div>
+      <div class="tier" data-tier="elite"><p class="pr">R299 <small>/ month</small></p><ul><li>Everything in Pro</li><li>Priority on briefs</li><li>Quarterly valuation report</li><li>Agent access</li></ul></div>
+      <a class="cta" href="athletes.html#apply">Know your worth</a>
+    </div>
+    <div class="plan2">
+      <svg class="ico" aria-hidden="true"><use href="#i-team"/></svg><p class="who">Teams, leagues and rights holders</p>
+      <div class="seg" role="tablist"><button aria-selected="true" data-tier="tpro">Team Pro</button><button aria-selected="false" data-tier="telite">Team Elite</button></div>
+      <div class="tier on" data-tier="tpro"><p class="pr">Quote <small>by squad size</small></p><ul><li>Squad dashboards</li><li>Inventory pricing against the board</li><li>Renewal benchmarks</li></ul></div>
+      <div class="tier" data-tier="telite"><p class="pr">Quote <small>by squad size</small></p><ul><li>Everything in Team Pro</li><li>Rankings and Discover</li><li>Rate-card builder</li><li>Partner reports</li></ul></div>
+      <a class="cta ghost" href="about.html#contact">Benchmark my rights</a>
+    </div>
+    <div class="plan2 hi">
+      <svg class="ico" aria-hidden="true"><use href="#i-brand"/></svg><p class="who">Brands and agencies</p><p class="tag">Most complete</p>
+      <div class="tier on"><p class="pr">R4,999 <small>/ month, Brand Premium</small></p><ul><li>Rankings and Discover</li><li>Unlimited briefs</li><li>Campaign return reports</li><li>Cost per thousand and renewal benchmarks</li><li>API access on request</li></ul></div>
+      <a class="cta" href="https://siyaduna.github.io/inani-demo/" target="_blank" rel="noopener">Try the demo</a>
+    </div>
+  </div>
+</div></section>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div><p class="line">Put a number on it.</p><p style="margin-top:.6rem">INANI, a division of Triumvirate Group (Pty) Ltd. "Inani" is isiXhosa for number, value, amount.</p></div>
+      <div><strong>Platform</strong><ul><li><a href="platform.html">Dashboards</a></li><li><a href="brands.html#board">Contracts and deals</a></li><li><a href="brands.html#briefs">Briefs</a></li><li><a href="athletes.html">Athletes</a></li></ul></div>
+      <div><strong>Insights</strong><ul><li><a href="insights.html">The latest</a></li><li><a href="insights.html#reports">Reports</a></li><li><a href="athletes.html#style">Off the field</a></li><li><a href="insights.html#newsletter">Newsletter</a></li></ul></div>
+      <div><strong>Company</strong><ul><li><a href="about.html">About</a></li><li><a href="partners.html">Partners</a></li><li><a href="about.html#method">Methodology</a></li><li><a href="about.html#legal">Company and POPIA</a></li><li><a href="about.html#contact">Contact</a></li></ul></div>
+    </div>
+    <p class="fine">Every figure on this site is drawn from a named public source. Estimates are marked and never presented as reported facts. INANI does not use logo detection or broadcast tracking and operates in compliance with POPIA. Photography supplied by INANI; rights to be cleared with the respective photographers before public launch.</p>
+  </div>
+</footer>
+<script src="site.js"></script>
+</body>
+</html>
