@@ -691,3 +691,9 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .look-rail .look .cap .cta{align-self:end;justify-self:start;margin-top:.6rem}
 .look-rail .look .ph{aspect-ratio:3/4;height:auto}
 .look-rail .look .ph img{height:100%;width:100%;object-fit:cover}
+/* desktop gutters and the two blocks that sat left */
+@media (min-width:900px){:root{--gl:max(40px,4vw);--gr:max(40px,4vw)}}
+.bignums{grid-template-columns:repeat(4,1fr)}
+.story.split{max-width:none;display:grid;grid-template-columns:1fr 1.1fr;gap:2.5rem;align-items:center}
+.story-body{display:grid;gap:1.4rem}
+@media (max-width:900px){.story.split{grid-template-columns:1fr}}
