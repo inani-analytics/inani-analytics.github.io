@@ -683,3 +683,4 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .g-row span{color:var(--ash)}.g-row .b{height:8px;background:var(--pine);position:relative}.g-row .b i{position:absolute;inset:0;width:var(--w);background:var(--amber)}.g-row b{text-align:right}.g-row em{font-style:normal;color:var(--ash);font-size:.72rem}
 .s-bars .r em{font-style:normal;color:var(--ash);font-size:.72rem;grid-column:1/-1;margin-top:-.2rem}
 .s-bars .r.est .b i{background:repeating-linear-gradient(90deg,var(--amber) 0 6px,transparent 6px 10px)}.s-bars .r.est b{color:var(--amber)}
+.g-row .b.dual{height:14px}.g-row .b.dual i{height:6px;top:0;bottom:auto}.g-row .b.dual u{position:absolute;left:0;bottom:0;height:6px;width:var(--w);background:var(--bone);opacity:.8}
