@@ -670,3 +670,10 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .club-invite h3{font-size:1.5rem;margin-bottom:.4rem}
 .club-invite p{color:var(--ash);max-width:52ch}
 @media (max-width:700px){.club-invite{grid-template-columns:1fr}}
+/* three-item sets fill the row on desktop; carousel only on small screens */
+@media (min-width:1000px){
+  .prods.carousel,.plans2.carousel{grid-auto-flow:row;grid-template-columns:repeat(3,1fr) !important;grid-auto-columns:auto;overflow:visible}
+  .tech.carousel{grid-auto-columns:calc((100% - 2rem)/3)}
+  .railwrap:has(> .prods) > .arr,.railwrap:has(> .plans2) > .arr{display:none}
+}
+.cta.ghost{background:transparent;color:var(--bone);border:1px solid rgba(243,239,230,.4)}
