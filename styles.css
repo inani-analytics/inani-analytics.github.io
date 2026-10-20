@@ -684,3 +684,10 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .s-bars .r em{font-style:normal;color:var(--ash);font-size:.72rem;grid-column:1/-1;margin-top:-.2rem}
 .s-bars .r.est .b i{background:repeating-linear-gradient(90deg,var(--amber) 0 6px,transparent 6px 10px)}.s-bars .r.est b{color:var(--amber)}
 .g-row .b.dual{height:14px}.g-row .b.dual i{height:6px;top:0;bottom:auto}.g-row .b.dual u{position:absolute;left:0;bottom:0;height:6px;width:var(--w);background:var(--bone);opacity:.8}
+/* look tiles: name is a plain line; captions equal height so buttons align */
+.look .cap p.who{display:block;grid-template-columns:none;background:transparent;padding:0;gap:0;font-weight:700;font-size:1.15rem;line-height:1.2}
+.look-rail .look{display:grid;grid-template-rows:auto 1fr}
+.look-rail .look .cap{grid-template-rows:auto auto auto 1fr;align-content:start}
+.look-rail .look .cap .cta{align-self:end;justify-self:start;margin-top:.6rem}
+.look-rail .look .ph{aspect-ratio:3/4;height:auto}
+.look-rail .look .ph img{height:100%;width:100%;object-fit:cover}
