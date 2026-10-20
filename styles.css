@@ -666,3 +666,7 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
 .logo{background:#F3EFE6 !important;border-color:#F3EFE6}
 .logo img{max-height:80px;max-width:180px}
 .logo span{color:#062A1E}
+.club-invite{display:grid;grid-template-columns:1fr auto;gap:1.5rem;align-items:center;background:var(--ink);border:1.5px dashed var(--moss);padding:1.6rem}
+.club-invite h3{font-size:1.5rem;margin-bottom:.4rem}
+.club-invite p{color:var(--ash);max-width:52ch}
+@media (max-width:700px){.club-invite{grid-template-columns:1fr}}
