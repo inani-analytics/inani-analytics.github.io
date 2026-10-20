@@ -677,3 +677,9 @@ footer .cols{grid-template-columns:repeat(4,1fr)}
   .railwrap:has(> .prods) > .arr,.railwrap:has(> .plans2) > .arr{display:none}
 }
 .cta.ghost{background:transparent;color:var(--bone);border:1px solid rgba(243,239,230,.4)}
+.s-growth{margin:.9rem 0 1rem;padding:.9rem 1rem;background:var(--ink);border:1px solid var(--moss)}
+.s-growth .g-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:.5rem}.s-growth .g-head b{font-size:.9rem}.s-growth .g-head span{color:var(--ash);font-size:.75rem}
+.g-row{display:grid;grid-template-columns:5.5rem 1fr 3.4rem auto;gap:.6rem;align-items:center;font-size:.8rem;margin:.3rem 0}
+.g-row span{color:var(--ash)}.g-row .b{height:8px;background:var(--pine);position:relative}.g-row .b i{position:absolute;inset:0;width:var(--w);background:var(--amber)}.g-row b{text-align:right}.g-row em{font-style:normal;color:var(--ash);font-size:.72rem}
+.s-bars .r em{font-style:normal;color:var(--ash);font-size:.72rem;grid-column:1/-1;margin-top:-.2rem}
+.s-bars .r.est .b i{background:repeating-linear-gradient(90deg,var(--amber) 0 6px,transparent 6px 10px)}.s-bars .r.est b{color:var(--amber)}
